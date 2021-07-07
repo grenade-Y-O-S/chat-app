@@ -1,8 +1,8 @@
 <div class="side_bar_header">
-  <div class=user_name>
-  <a href="#">山田課長</a>
+  <div class="header-name">
+    <%= link_to current_user.name, edit_user_path(current_user) %>
   </div>
-  <div class=create_chat>
+  <div class="create-room">
   <a href="#">チャットルーム作成</a>
   </div>
 </div>

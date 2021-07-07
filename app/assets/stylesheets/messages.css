@@ -19,13 +19,13 @@
   align-items: center;
 }
 
-.user_name a {
+.header-name a {
   color: #fafafa;
   size: 16px;
   text-decoration: none;
 }
 
-.create_chat a {
+.create-room a {
   border: 1px solid lightblue;
   color: deepskyblue;
   size: 10px;
